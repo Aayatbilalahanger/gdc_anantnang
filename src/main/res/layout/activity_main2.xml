@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:padding="30dp"
+        android:text="GDC ANANTNANG"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="103dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="311dp"
+        app:srcCompat="@drawable/baseline_menu_24"
+        android:onClick="sidebar"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="102dp"
+        android:layout_height="81dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="3dp"
+        app:srcCompat="@drawable/logo" />
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:id="@+id/flipper"
+        android:layout_marginTop="80dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="650dp"/>
+    </ViewFlipper>
+
+
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="#4CAF50"
+        android:id="@+id/linear"
+
+
+
+
+        >
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="79dp"
+            android:layout_height="59dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+
+            android:onClick="hide"
+            app:srcCompat="@drawable/baseline_arrow_left_24" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/frist" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_marginTop="250dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+
+
+            >
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="88dp"
+                android:layout_height="29dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="51dp"
+                android:layout_marginBottom="396dp"
+                android:onClick="next"
+                android:text="HOME" />
+
+            <TextView
+                android:id="@+id/aboutus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/t1"
+                android:layout_marginEnd="-88dp"
+                android:layout_marginBottom="-100dp"
+                android:layout_toStartOf="@+id/t1"
+                android:text="ABOUT collage" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/aboutus"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="-138dp"
+                android:text="CONTACT US" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView5"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginBottom="-106dp"
+                android:text="DOWNLOAD NOTES" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/t1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="113dp"
+                android:layout_marginBottom="400dp"
+                app:srcCompat="@drawable/baseline_home" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView5"
+                android:layout_alignBottom="@+id/textView5"
+                android:layout_marginEnd="116dp"
+                android:layout_marginBottom="8dp"
+                app:srcCompat="@drawable/contactus" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/aboutus"
+                android:layout_alignBottom="@+id/aboutus"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="-7dp"
+                app:srcCompat="@drawable/baseline_perm_identity_24" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView7"
+                android:layout_alignBottom="@+id/textView7"
+                android:layout_marginEnd="161dp"
+                android:layout_marginBottom="-1dp"
+                app:srcCompat="@drawable/baseline_notes_24" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+
+
+
+        />
+
+</RelativeLayout>
+
+
+
+
+
+

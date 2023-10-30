@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#8BC34A"
+    android:fillViewport="true"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+android:background="#8BC34A"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="401dp"
+        android:layout_height="83dp"
+        android:text="ABOUT COLLAGE"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="269dp"
+        android:layout_height="148dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Government Degree College Anantnag, is a premier educational institution of South Kashmir. It was established in 1950 as an intermediate college in the heart of Anantnag town. Later, it was shifted to its present location which had been a rest house of the Maharaja. Since its inception the college has been producing a large human capital that has been serving the society in various capacities. The college was given 2(f) and 12 (B) status by UGC in 1972. Under the able stewardship of eminent educationists, the college has flourished and distinguished itself as one of the quality education centres and knowledge hub of the valley in the field of Higher Education and is putting in strenuous efforts to improve the academic atmosphere through innovative methods besides maintaining its glorious past. The college is making optimal use of the available resources to keep the pace and live up to the expectations of the society in general and the student community in particular and set up new benchmarks of academic standards. During its existence of more than six decades it has tirelessly produced a vast human resource serving the state in all walks of life. The efforts are on to bring more diversity in the courses to meet the unending demands of the Society which has also become inevitable in the light of Semesterized Choice Based Credit System (CBCS) that has been introduced as part of the reforms in Higher Education and is in vogue from academic session 2016-17.  The college was Accredited by NAAC first in 2005 then in 2012 and then in 2021 to evaluate the academic standards of the institution conferring college with B+, A and B+ grade respectively. In a stride forward, the college was granted the “College with Potential for Excellence” (CPE) status by UGC in April 2016."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif-thin"
+        tools:layout_editor_absoluteY="355dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
